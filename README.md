@@ -49,6 +49,11 @@ git clone https://github.com/glovebx/odoo-jsonrpc-kotlin-client.git
 
 - **Website**: https://glovebx.github.io/
 
+## 鸣谢
+
+感谢armcha的Ribble项目提供了出色的架构参考
+
+
 License
 --------
 
