@@ -6,7 +6,7 @@
     </a>
 </p>
 
-## 面向Android平台，用Kotlin编写的Odoo原生客户端，经由Odoo的/jsonrpc入口，编码进行中...
+## Android平台，用Kotlin编写的Odoo原生客户端，经由Odoo的/jsonrpc入口，编码进行中...
 
 ## 特性
 :white_check_mark:  开发语言: 主干程序完全是Kotlin，部分第三方库仍旧用Java :scream: :heart: <br/>
@@ -37,8 +37,8 @@
 | :-------------: | 
 | ![Login](art/auth_activity.png) | 
 
-## Build
-### Open the project in Android Studio
+## 编译
+### 开发环境 Android Studio
 ```
 git clone https://github.com/glovebx/odoo-jsonrpc-kotlin-client.git
 ``` 
