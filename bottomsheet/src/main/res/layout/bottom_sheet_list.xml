@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bind="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <data>
+
+        <import type="com.allco.ui.bottomsheet.R"/>
+
+        <variable
+            name="items"
+            type="com.allco.ui.bottomsheet.utils.ObserverBasedAdapter.ItemList"
+            />
+
+        <variable
+            name="background"
+            type="android.graphics.drawable.Drawable"
+            />
+    </data>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_bottom_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:clickable="false"
+        android:paddingBottom="?attr/bslPanePaddingBottom"
+        android:paddingTop="?attr/bslPanePaddingTop"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        bind:bslListItems="@{items}"
+        bind:bslBackgroundDrawable="@{background}"
+        bind:bslBackgroundAttr="@{R.attr.bslPaneBackground}"
+        />
+
+</layout>
+
+

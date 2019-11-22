@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardElevation="0dp"
+    app:cardCornerRadius="0dp"
+    app:cardUseCompatPadding="false"
+    tools:context=".presentation.screen.home.HomeActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:elevation="0dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:background="@color/bg_color"
+            android:padding="0dp"
+            app:contentInsetEnd="0dp"
+            app:contentInsetStart="0dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.ria4.odoo.presentation.widget.ArcView
+                    android:id="@+id/arcView"
+                    android:layout_width="85dp"
+                    android:layout_height="63dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@android:color/white"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <com.ria4.odoo.presentation.widget.AnimatedImageView
+                    android:id="@+id/arcImage"
+                    android:layout_width="28dp"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginStart="22dp"
+                    android:contentDescription="@string/arc_view_image"
+                    android:tint="@android:color/white"
+                    app:layout_constraintBottom_toBottomOf="@+id/toolbarTitle"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/toolbarTitle"
+                    app:layout_constraintVertical_bias="0.50" />
+
+                <com.ria4.odoo.presentation.widget.AnimatedTextView
+                    android:id="@+id/toolbarTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:maxLength="18"
+                    android:maxLines="1"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/black"
+                    android:textSize="19sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include layout="@layout/content_main" />
+
+</androidx.cardview.widget.CardView>

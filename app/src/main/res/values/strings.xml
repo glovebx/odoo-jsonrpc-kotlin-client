@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Odoo助手</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_webview">WebviewActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="arc_view_image">Arc view image</string>
+    <string name="shot_image">Shot image</string>
+    <string name="liked_shot_image">Liked shot image</string>
+    <string name="user_avatar">User avatar</string>
+    <string name="shot_detail_image">Shot detail image</string>
+    <string name="no_comments_text">No comments</string>
+    <string name="shot_author_image">Shot author image</string>
+    <string name="error_title">Something went wrong</string>
+    <string name="app_name_upper">ODOO</string>
+    <string name="welcome_to_app">Current Version:</string>
+    <string name="login_via">Login via</string>
+    <string name="logged_in_message">Logged in!!</string>
+    <string name="contact_with_us">Contact with us</string>
+    <string name="about_this_app_content">ODOO助手</string>
+    <string name="about_app_icon">About App Icon</string>
+    <string name="email">E-mail</string>
+    <string name="twitter">Twitter</string>
+    <string name="facebook">Facebook</string>
+    <string name="github">Source code</string>
+    <string name="mail">thegreatchina@gmail.com</string>
+    <string name="sen_us_emial">Send us email</string>
+    <string name="no_shots">No shots</string>
+    <string name="no_shops">No shops</string>
+    <string name="twitter_url">https://twitter.com/</string>
+    <string name="facebook_url">https://web.facebook.com/</string>
+    <string name="githun_url">https://github.com/armcha/</string>
+    <string name="comment_user_image">Comment user image</string>
+    <string name="easter_title">Easter egg</string>
+    <string name="easter_message">There should be an easter egg, what do you think?</string>
+    <string name="easter_button_text">Not funny</string>
+    <string name="navigation_drawer_icon">Navigation drawer icon</string>
+
+    <string name="fresco_plus_icon_string">res:///</string>
+
+    <string name="drag_to_delete">拖动到此处删除</string>
+    <string name="drop_to_delete">松手即可删除</string>
+</resources>

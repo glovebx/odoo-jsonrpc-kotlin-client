@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bottom_sheet_title_height">56dp</dimen>
+    <dimen name="bottom_sheet_text_height">48dp</dimen>
+    <dimen name="bottom_sheet_padding_divider_top">7dp</dimen>
+    <dimen name="bottom_sheet_padding_divider_bottom">8dp</dimen>
+    <dimen name="bottom_sheet_padding_bottom">8dp</dimen>
+    <dimen name="bottom_sheet_padding_double">32dp</dimen>
+    <dimen name="bottom_sheet_padding_default">16dp</dimen>
+    <dimen name="bottom_sheet_divider_height">0.7dp</dimen>
+
+    <color name="bottom_sheet_item_text">#DE000000</color>
+    <color name="bottom_sheet_item_text_title">#8A000000</color>
+    <color name="bottom_sheet_divider_color_grey">#33000000</color>
+
+</resources>

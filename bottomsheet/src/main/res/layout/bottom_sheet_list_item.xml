@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bind="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <data>
+
+        <import type="com.allco.ui.bottomsheet.R"/>
+
+        <variable
+            name="model"
+            type="com.allco.ui.bottomsheet.ClickableViewModel"
+            />
+    </data>
+
+    <TextView
+        android:id="@+id/bottom_sheet_item_title"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/bslItemClickableHeight"
+        android:background="?attr/bslItemClickableBackground"
+        android:clickable="true"
+        android:contentDescription="@{model.title}"
+        android:drawablePadding="?attr/bslItemClickablePaddingIcon"
+        android:ellipsize="end"
+        android:focusable="true"
+        android:gravity="start|center"
+        android:maxLines="1"
+        android:onClick="@{v->model.onClicked.invoke()}"
+        android:paddingStart="?attr/bslItemClickablePaddingLeft"
+        android:paddingEnd="?attr/bslItemClickablePaddingRight"
+        android:text="@{model.title}"
+        bind:bslCompatLeftDrawable="@{model.iconDrawable}"
+        bind:bslCompatLeftDrawableRes="@{model.iconRes}"
+        bind:bslCompatLeftDrawableResTintColor="@{model.tintColorRes}"
+        bind:bslTextAppearanceStyle="@{model.textAppearanceRes}"
+        bind:bslTextAppearanceAttr="@{R.attr.bslItemClickableTextAppearance}"
+        tools:text="@tools:sample/lorem[9]"
+        />
+
+</layout>

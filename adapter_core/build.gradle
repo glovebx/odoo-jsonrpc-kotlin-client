@@ -1,0 +1,52 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+
+android {
+    compileSdkVersion Integer.parseInt(COMPILE_SDK_VERSION)
+    buildToolsVersion BUILD_TOOLS_VERSION
+
+    defaultConfig {
+        minSdkVersion Integer.parseInt(MIN_SDK_VERSION)
+        targetSdkVersion Integer.parseInt(TARGET_SDK_VERSION)
+        versionCode Integer.parseInt(VERSION_CODE)
+        versionName VERSION_NAME
+//        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    dataBinding {
+        enabled = true
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    sourceSets {
+        main {
+            java.srcDirs = ['src/main/kotlin']
+        }
+    }
+}
+
+ext.appcompatVersion = '1.1.0-alpha05'
+dependencies {
+//    androidTestImplementation(rootProject.ext.dependencies["espresso"], {
+//        exclude group: 'com.android.support', module: 'support-annotations'
+//    })
+//    api rootProject.ext.dependencies["recyclerview"]
+//    api rootProject.ext.dependencies["kotlin"]
+//    api rootProject.ext.dependencies["junit"]
+    implementation "androidx.recyclerview:recyclerview:${appcompatVersion}"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+
+//    kapt 'com.android.databinding:compiler:3.1.2'
+}

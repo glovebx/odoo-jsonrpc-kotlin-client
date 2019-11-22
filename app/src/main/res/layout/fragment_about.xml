@@ -1,0 +1,69 @@
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/rootView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/app_icon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/about_app_icon"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:gravity="center"
+            android:text="@string/about_this_app_content"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/aboutItemDividerColor" />
+
+        <!--<include layout="@layout/about_item" />-->
+
+        <!--<include layout="@layout/about_item" />-->
+
+        <!--<include layout="@layout/about_item" />-->
+
+        <!--<include layout="@layout/about_item" />-->
+
+        <TextView
+            android:id="@+id/appInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:drawablePadding="16dp"
+            android:gravity="center_vertical"
+            android:lineSpacingExtra="2dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="17dp"
+            android:paddingStart="17dp"
+            android:paddingTop="5dp"
+            android:textColor="@color/blue_gray"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/aboutItemDividerColor" />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

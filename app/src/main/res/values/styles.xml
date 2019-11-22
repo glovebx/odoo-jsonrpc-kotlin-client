@@ -1,0 +1,66 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AuthTheme" parent="AppTheme.NoActionBar" />
+
+    <style name="MaterialDialogSheet" parent="@android:style/Theme.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+    <style name="SplashTheme" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/background_splash</item>
+    </style>
+
+    <!--push-->
+
+    <style name="pushDialogAnimation" parent="android:Theme.DeviceDefault.Dialog">
+        <item name="android:windowAnimationStyle">@style/pushDialogAnimation.Style</item>
+    </style>
+
+    <style name="pushDialogAnimation.Style">
+        <item name="android:windowEnterAnimation">@anim/push_in</item>
+        <item name="android:windowExitAnimation">@anim/push_out</item>
+    </style>
+
+
+    <!--fade-->
+
+    <style name="fadeDialogAnimation" parent="android:Theme.DeviceDefault.Dialog">
+        <item name="android:windowAnimationStyle">@style/fadeDialogAnimation.Style</item>
+    </style>
+
+    <style name="fadeDialogAnimation.Style">
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+
+    <!--pulse-->
+
+    <style name="pulseDialogAnimation" parent="android:Theme.DeviceDefault.Dialog">
+        <item name="android:windowAnimationStyle">@style/pulseDialogAnimation.Style</item>
+    </style>
+
+    <style name="pulseDialogAnimation.Style">
+        <item name="android:windowEnterAnimation">@anim/pulse_modal_in</item>
+        <item name="android:windowExitAnimation">@anim/pulse_modal_out</item>
+    </style>
+</resources>

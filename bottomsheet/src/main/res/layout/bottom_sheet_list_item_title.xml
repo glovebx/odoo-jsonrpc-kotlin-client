@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:bind="http://schemas.android.com/apk/res-auto"
+    >
+
+    <data>
+
+        <import type="com.allco.ui.bottomsheet.R"/>
+
+        <variable
+            name="model"
+            type="com.allco.ui.bottomsheet.TitleViewModel"
+            />
+    </data>
+
+    <TextView
+        android:id="@+id/bottom_sheet_title"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/bslItemTitleHeight"
+        android:contentDescription="@{model.title}"
+        android:ellipsize="end"
+        android:gravity="start|center"
+        android:maxLines="1"
+        android:paddingLeft="?attr/bslItemTitlePaddingLeft"
+        android:paddingRight="?attr/bslItemTitlePaddingRight"
+        android:text="@{model.title}"
+        android:textAppearance="@{safeUnbox(model.textAppearanceRes)}"
+        bind:bslTextAppearanceStyle="@{model.textAppearanceRes}"
+        bind:bslTextAppearanceAttr="@{R.attr.bslItemTitleTextAppearance}"
+        tools:text="@tools:sample/lorem/random"
+        />
+</layout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="bottomSheetLibStyle"
+          format="reference"/>
+
+    <declare-styleable name="BottomSheetLibStyle">
+        <attr name="bslPaneBackground"/>
+        <attr name="bslPanePaddingTop"
+              format="dimension"/>
+        <attr name="bslPanePaddingBottom"
+              format="dimension"/>
+        <!-- Clickable item style -->
+        <attr name="bslItemClickableHeight"/>
+        <attr name="bslItemClickableBackground"/>
+        <attr name="bslItemClickableTextAppearance"/>
+        <attr name="bslItemClickablePaddingIcon"/>
+        <attr name="bslItemClickablePaddingRight"/>
+        <attr name="bslItemClickablePaddingLeft"/>
+        <!--Divider style -->
+        <attr name="bslItemDividerHeight"/>
+        <attr name="bslItemDividerColor"/>
+        <attr name="bslItemDividerMarginBottom"/>
+        <attr name="bslItemDividerMarginTop"/>
+        <!-- Title item style -->
+        <attr name="bslItemTitleHeight"/>
+        <attr name="bslItemTitlePaddingLeft"/>
+        <attr name="bslItemTitlePaddingRight"/>
+        <attr name="bslItemTitleTextAppearance"/>
+    </declare-styleable>
+
+</resources>

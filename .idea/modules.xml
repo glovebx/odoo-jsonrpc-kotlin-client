@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/adapter_core/adapter_core.iml" filepath="$PROJECT_DIR$/adapter_core/adapter_core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/adapter_extension/adapter_extension.iml" filepath="$PROJECT_DIR$/adapter_extension/adapter_extension.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baseMVP/baseMVP.iml" filepath="$PROJECT_DIR$/baseMVP/baseMVP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/odoo-jsonrpc-kotlin-client.iml" filepath="$PROJECT_DIR$/odoo-jsonrpc-kotlin-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/snackprogressbar/snackprogressbar.iml" filepath="$PROJECT_DIR$/snackprogressbar/snackprogressbar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/switchbutton/switchbutton.iml" filepath="$PROJECT_DIR$/switchbutton/switchbutton.iml" />
+    </modules>
+  </component>
+</project>

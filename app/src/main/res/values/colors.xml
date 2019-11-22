@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF4081</color>
+    <color name="colorPrimaryDark">#eeeeee</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="dialogPrimaryDark">#616161</color>
+    <color name="bg_color">#fafafa</color>
+    <color name="navigation_item_color">#434A5A</color>
+    <color name="green">#009f5a</color>
+    <color name="red">#F44336</color>
+    <color name="cyan">#00BCD4</color>
+    <color name="log_out_color">#3F51B5</color>
+    <color name="shot_color">#3F51B5</color>
+    <color name="blue_gray">#607D8B</color>
+    <color name="progressBg">#30FF4081</color>
+    <color name="aboutItemDividerColor">#30dadada</color>
+    <color name="twitter">#23A4F2</color>
+    <color name="facebook">#4267B2</color>
+    <color name="googlePlus">#DB4437</color>
+    <color name="github">#24292E</color>
+
+    <color name="colorTextLight">#FFFFFF</color>
+    <color name="colorTextLightGary">#FAFAFA</color>
+    <color name="colorTextGary">#999999</color>
+    <color name="colorLightGary">#dfdfdf</color>
+
+    <color name="comm_white">#FFFFFF</color>
+    <color name="comm_transparent">#00000000</color>
+    <color name="comm_yellow">#ffd022</color>
+    <color name="comm_line">#dddddd</color>
+    <color name="comm_price">#b26200</color>
+    <color name="comm_bg">#f2f2f2</color>
+
+    <color name="border_color">#2e86d7</color>
+    <color name="touch_overlay_ripple">#d03b3b40</color>
+    <color name="des_bg">#767676</color>
+</resources>

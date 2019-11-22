@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.tarek360:instacapture:2.0.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-instacapture-2.0.1.aar/def0e6e34734b82550304e319c91adb4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-instacapture-2.0.1.aar/def0e6e34734b82550304e319c91adb4/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.tarek360/instacapture/2.0.1/2f6699c23ef875e407c6080d4877e57f349b626a/instacapture-2.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

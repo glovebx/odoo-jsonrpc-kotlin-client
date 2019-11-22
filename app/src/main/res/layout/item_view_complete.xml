@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_margin="5dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="8dp"
+    app:cardElevation="2dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/icon"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="6dp"
+            app:actualImageScaleType="focusCrop"
+            app:fadeDuration="200"
+            app:failureImage="@color/colorPrimary"
+            app:failureImageScaleType="centerCrop"
+            app:placeholderImage="@color/colorPrimary"
+            app:placeholderImageScaleType="centerCrop"
+            app:roundingBorderWidth="1px"
+            app:roundingBorderColor="@color/colorTextGary"
+            app:roundAsCircle="true"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/shopName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/icon"
+            android:layout_marginTop="3dp"
+            android:textColor="@color/colorAccent"
+            android:textSize="14sp"
+            tools:text="时装品牌"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/icon"
+            android:layout_below="@+id/shopName"
+            android:textColor="@color/colorTextGary"
+            android:textSize="12sp"
+            tools:text="1分钟前"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/icon"
+            android:layout_below="@+id/time"
+            android:layout_marginTop="6dp"
+            android:textColor="@color/colorTextGary"
+            android:textSize="12sp"
+            android:lines="2"
+            tools:text="特价188！RV全新凉鞋断码清货特价188！RV全新凉鞋断码清货特价188！RV全新凉鞋断码清货特价188！RV全新凉鞋断码清货特价188！RV全新凉鞋断码清货"/>
+
+        <com.ria4.odoo.presentation.widget.GridRecyclerView
+            android:id="@+id/mediaRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_below="@+id/title"
+            android:layout_toRightOf="@+id/icon"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:overScrollMode="never" />
+        <!--android:layoutAnimation="@anim/grid_layout_animation_from_bottom"-->
+
+        <LinearLayout
+            android:id="@+id/actionBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mediaRecyclerView"
+            android:layout_toRightOf="@+id/icon"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="6dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGary"
+                android:textSize="12sp"
+                android:text=""/>
+
+            <View
+                android:layout_width="0.0dp"
+                android:layout_height="1dp"
+                android:background="@color/comm_transparent"
+                android:layout_weight="1.0" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/shareEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGary"
+                android:textSize="12sp"
+                android:padding="4dp"
+                android:gravity="center"
+                android:drawableLeft="@drawable/share_weixin_edit"
+                android:drawablePadding="2dp"
+                android:text="再编辑"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/shareChat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGary"
+                android:textSize="12sp"
+                android:padding="4dp"
+                android:gravity="center"
+                android:layout_marginLeft="6dp"
+                android:drawableLeft="@drawable/share_weixin"
+                android:drawablePadding="2dp"
+                android:text="发好友"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/shareTimeline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGary"
+                android:textSize="12sp"
+                android:padding="4dp"
+                android:gravity="center"
+                android:layout_marginLeft="6dp"
+                android:drawableLeft="@drawable/share_weixin_timeline"
+                android:drawablePadding="2dp"
+                android:text="朋友圈"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
