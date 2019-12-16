@@ -23,7 +23,7 @@ abstract class ApiPresenter<VIEW : BaseContract.View> : BasePresenter<VIEW>(), R
     @Inject
     protected lateinit var fetcher: Fetcher
 
-    protected var callerName: String = emptyString
+    private var callerName: String = emptyString
 
     private val TYPE_NONE = RequestType.TYPE_NONE
     protected val AUTH: RequestType = RequestType.AUTH

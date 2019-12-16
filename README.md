@@ -2,7 +2,7 @@
 
 <p align="center">
     <a href="art/launcher.png">
-        <img src="art/launcher.png" width="360" height="360"/>
+        <img src="art/launcher.png" width="240" height="240"/>
     </a>
 </p>
 
@@ -23,7 +23,7 @@
    * [Glide](https://github.com/bumptech/glide) - for image loading<br/>
    * [Gson](https://github.com/google/gson) - for serialization and deserialization<br/>
    * [Retrofit](https://github.com/square/retrofit) - for HTTP requests<br/>
-   * [Room](https://developer.android.com/topic/libraries/architecture/room.html) - for data persistence (Not implemented yet)<br/>
+   * [Room](https://developer.android.com/topic/libraries/architecture/room.html) - for data persistence<br/>
    * [Leak canary](https://github.com/square/leakcanary) - for memory leak detection<br/>
    * [Logger](https://github.com/armcha/logger) - for simple logging<br/>
     
@@ -48,6 +48,12 @@ git clone https://github.com/glovebx/odoo-jsonrpc-kotlin-client.git
 提交PR或者Issue
 
 - **Website**: https://glovebx.github.io/
+
+<p align="center">
+    <a href="art/kotlin_qq_group.png">
+        <img src="art/kotlin_qq_group.png" width="240" height="240"/>
+    </a>
+</p>
 
 ## 鸣谢
 
