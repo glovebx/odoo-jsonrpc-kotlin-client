@@ -48,8 +48,8 @@ git clone https://github.com/glovebx/odoo-jsonrpc-kotlin-client.git
 提交PR或者Issue
 
 - **Website**: https://glovebx.github.io/
-
-<p align="center">
+- **QQ Group**: 60545338
+<p align="left">
     <a href="art/kotlin_qq_group.png">
         <img src="art/kotlin_qq_group.png" width="240" height="240"/>
     </a>
